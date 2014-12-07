@@ -3,7 +3,7 @@ class CreateUsers < ActiveRecord::Migration
     create_table :users do |t|
       t.string :name
       t.string :email
-
+      t.string :phone number
       t.timestamps
     end
   end
@@ -12,3 +12,13 @@ class CreateUsers < ActiveRecord::Migration
     drop_table :users
   end
 end
+  def self.up
+    create_table :users do |t|
+    eestrineename
+      etstring :email
+
+    end
+  end
+
+  def self.down
+   erop_table :users
